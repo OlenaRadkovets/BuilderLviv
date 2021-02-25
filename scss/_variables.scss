@@ -1,0 +1,112 @@
+$textColor: #fff;
+$orangeText:#FF9900;
+$blackText: #000;
+$grayText: #7C7C7C;
+$background:#E5E5E5;
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+body {
+    font-family: 'Gilroy';
+}
+
+.info,
+a,
+.caption,
+p,
+.absolute-caption::after,
+.absolute-caption::before,
+#contact span {
+    color: $textColor;
+}
+
+
+.logo,
+.call,
+h3 {
+    color: $orangeText
+}
+
+.img-bottom,
+.experience div,
+#contact {
+    background-color: $orangeText;
+}
+
+a:hover {
+    color: $orangeText;
+    text-decoration: underline;
+}
+
+.call {
+    font-family: 'Gilroy';
+    border: 2px solid $orangeText;
+}
+
+.application {
+    font-family: 'Gilroy';
+    background-color: $orangeText;
+    color: $textColor;
+    box-shadow: 0 0 10px $orangeText;
+}
+
+h2 {
+    color: $textColor;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.info-about-us {
+    h2 {
+        color: $blackText;
+    }
+
+    p {
+        color: $grayText;
+    }
+}
+
+
+#how-we-work {
+    background-color: $blackText;
+}
+
+
+#our-works,
+.info-about-us {
+    background-color: $background;
+
+    h2 {
+        color: $blackText;
+    }
+}
+
+
+#cliens {
+    h4 {
+        color: $background;
+    }
+
+}
+
+input,
+input::placeholder {
+    font-family: 'Gilroy';
+    color: $textColor;
+    border-bottom: 1px solid $textColor;
+}
+
+#contact-submit {
+    background-color: $textColor;
+    color: $orangeText;
+}
+
+.footer {
+    background-color: $blackText;
+    color: $textColor;
+}
